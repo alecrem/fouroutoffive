@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       phaser:
-        specifier: ^4.0.0-rc.3
-        version: 4.0.0-rc.3
+        specifier: ^4.0.0-rc.4
+        version: 4.0.0-rc.4
       react:
         specifier: ^19.1.0
         version: 19.1.0
@@ -951,8 +951,8 @@ packages:
     resolution: {integrity: sha512-gDKb8aZMDeD/tZWs9P6+q0J9Mwkdl6xMV8TjnGP3qJVJ06bdMgkbBlLU8IdfOsIsFz2BW1rNVT3XuNEl8zPAvw==}
     engines: {node: '>=8'}
 
-  phaser@4.0.0-rc.3:
-    resolution: {integrity: sha512-iAciFVVp9OJ2uFihVRVt4x9l+I3XasjDhMf0Bzm1uiN1ma33oiEl8xqm4F+06mmqq8jC9cTsY9hksB0m2xqXzw==}
+  phaser@4.0.0-rc.4:
+    resolution: {integrity: sha512-qh1uSWJ0Y89Xz7zP7vS971SIPUkaya1/oYnpE5OSzTG3KMzVZYwYUA1ONkSTx9nE6uvjNoZ0Aq+gPjRVedDtBw==}
 
   picocolors@1.1.1:
     resolution: {integrity: sha512-xceH2snhtb5M9liqDsmEw56le376mTZkEX/jEb/RxNFyegNul7eNslCXP9FDj/Lcu0X8KEyMceP2ntpaHrDEVA==}
@@ -2024,7 +2024,7 @@ snapshots:
 
   path-type@4.0.0: {}
 
-  phaser@4.0.0-rc.3:
+  phaser@4.0.0-rc.4:
     dependencies:
       eventemitter3: 5.0.1
 
