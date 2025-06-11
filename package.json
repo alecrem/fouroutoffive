@@ -38,7 +38,7 @@
     "eslint": "^8.57.0",
     "eslint-plugin-react-hooks": "^5.2.0",
     "eslint-plugin-react-refresh": "^0.4.20",
-    "terser": "^5.41.0",
+    "terser": "^5.42.0",
     "typescript": "^5.8.3",
     "vite": "^6.3.5"
   }
