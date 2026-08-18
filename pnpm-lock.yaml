@@ -32,7 +32,7 @@ importers:
         version: 8.67.0(eslint@10.8.1)(typescript@6.0.3)
       '@vitejs/plugin-react':
         specifier: ^6.0.5
-        version: 6.0.5(vite@8.2.1(esbuild@0.27.2)(terser@5.49.2))
+        version: 6.0.5(vite@8.2.1(esbuild@0.27.2)(terser@5.50.0))
       eslint:
         specifier: ^10.8.1
         version: 10.8.1
@@ -43,14 +43,14 @@ importers:
         specifier: ^0.5.4
         version: 0.5.4(eslint@10.8.1)
       terser:
-        specifier: ^5.49.2
-        version: 5.49.2
+        specifier: ^5.50.0
+        version: 5.50.0
       typescript:
         specifier: ^6.0.3
         version: 6.0.3
       vite:
         specifier: ^8.2.1
-        version: 8.2.1(esbuild@0.27.2)(terser@5.49.2)
+        version: 8.2.1(esbuild@0.27.2)(terser@5.50.0)
 
 packages:
 
@@ -989,8 +989,8 @@ packages:
     resolution: {integrity: sha512-UjgapumWlbMhkBgzT7Ykc5YXUT46F0iKu8SGXq0bcwP5dz/h0Plj6enJqjz1Zbq2l5WaqYnrVbwWOWMyF3F47g==}
     engines: {node: '>=0.10.0'}
 
-  terser@5.49.2:
-    resolution: {integrity: sha512-rGbJiKeQ4WDe3EXlDAIaQcwftVfv2Q8o1awFNfvXolJYKkb1AuZY1RTOmqx4LJXZENbWZA7eIsYGHuEzHsi1nQ==}
+  terser@5.50.0:
+    resolution: {integrity: sha512-CN9BVxWhgS/hRxtUMjtC2uRWSTcSfQFHMDWma6sKKfIivCD91sM+FOPfvwoaRMqCSrUpe1nv3jDamd9eEQ4y+w==}
     engines: {node: '>=10'}
     hasBin: true
 
@@ -1531,10 +1531,10 @@ snapshots:
       '@typescript-eslint/types': 8.67.0
       eslint-visitor-keys: 5.0.1
 
-  '@vitejs/plugin-react@6.0.5(vite@8.2.1(esbuild@0.27.2)(terser@5.49.2))':
+  '@vitejs/plugin-react@6.0.5(vite@8.2.1(esbuild@0.27.2)(terser@5.50.0))':
     dependencies:
       '@rolldown/pluginutils': 1.0.1
-      vite: 8.2.1(esbuild@0.27.2)(terser@5.49.2)
+      vite: 8.2.1(esbuild@0.27.2)(terser@5.50.0)
 
   acorn-jsx@5.3.2(acorn@8.18.0):
     dependencies:
@@ -1938,7 +1938,7 @@ snapshots:
 
   source-map@0.6.1: {}
 
-  terser@5.49.2:
+  terser@5.50.0:
     dependencies:
       '@jridgewell/source-map': 0.3.11
       acorn: 8.18.0
@@ -1970,7 +1970,7 @@ snapshots:
     dependencies:
       punycode: 2.3.1
 
-  vite@8.2.1(esbuild@0.27.2)(terser@5.49.2):
+  vite@8.2.1(esbuild@0.27.2)(terser@5.50.0):
     dependencies:
       lightningcss: 1.33.0
       picomatch: 4.0.5
@@ -1980,7 +1980,7 @@ snapshots:
     optionalDependencies:
       esbuild: 0.27.2
       fsevents: 2.3.3
-      terser: 5.49.2
+      terser: 5.50.0
 
   which@2.0.2:
     dependencies:
